@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+    background-image: url("love.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 10px 10px -5px white;
+    width: 100%;
+}
+
+.names {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-top: 140px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.names:hover {
+    transform: scale(1.05);
+}
+
+.name div {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.name input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid pink;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.name input[type="text"]:focus {
+    border-color: #d63384; 
+    box-shadow: 0 0 8px #d63384;
+    background-color: #fff0f5;
+}
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Dancing Script', cursive;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    color: white;
+    box-shadow: 0px 0px 10px #ff69b4;
+}
