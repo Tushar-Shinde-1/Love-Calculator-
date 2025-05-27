@@ -28,12 +28,13 @@ A fun and romantic 💕 **Love Calculator** web application that lets users ente
 ---
 
 ## 🗂 Project Structure
+```
 love-calculator/
 ├── index.html # Main HTML page
 ├── style.css # Styling with love-themed design
 ├── script.js # JavaScript logic for love score
 ├── love.jpg # Background image (romantic theme)
-
+```
 
 ## 🔮 Love Score Logic
 
@@ -61,11 +62,7 @@ This app is made **just for fun** and **not** a real compatibility calculator. E
 ---
 
 
-## 📄 License
 
-This project is open source and free to use.
-
----
 
 
 
